@@ -14,11 +14,11 @@ spec:
     spec:
       containers:
       - name: menuitemrepos
-        image: truyumcr.azurecr.io/menuitemrepos:latest
+        image: truyumappcr.azurecr.io/menuitemrepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
-      - name: truyumsn
+      - name: truyumappsn
 
 ---
 apiVersion: v1
